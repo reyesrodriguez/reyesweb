@@ -1,0 +1,36 @@
+.body {
+	height:500px;
+	overflow: scroll;
+	font-size: 1.4em;
+	color:#424242;
+
+}
+
+.side-left{
+	height:500px;
+}
+
+.name {
+	color:#01579b;
+	font-weight: 800;
+
+}
+
+.links{
+	color:#bf360c;
+}
+
+.line{
+	border: solid 1px #607d8b;
+	opacity: 0.5;
+}
+
+.resume {
+	color:#aeea00;
+}
+
+footer{
+	height: 60px;
+	background-color:#607d8b;
+	opacity: 0.2;
+}
