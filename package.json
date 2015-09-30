@@ -9,6 +9,20 @@
   "author": "thundereef",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "express": "~4.13.3"
   }
+=======
+    "express": "^4.13.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reyesrodriguez/reyesweb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/reyesrodriguez/reyesweb/issues"
+  },
+  "homepage": "https://github.com/reyesrodriguez/reyesweb#readme"
+>>>>>>> a490bc67cb6f2788944a47fcd3ffe2a453e01888
 }
