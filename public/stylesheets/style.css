@@ -3,16 +3,23 @@
 	overflow: scroll;
 	font-size: 1.4em;
 	color:#424242;
+	border-top: solid 2px #607d8b;
 
+}
+
+a:visited {
+	color: #bf360c;
 }
 
 .side-left{
 	height:500px;
+	border-top: solid 2px #607d8b;
 }
 
 .name {
 	color:#01579b;
 	font-weight: 800;
+	text-align: center;
 
 }
 
@@ -20,9 +27,8 @@
 	color:#bf360c;
 }
 
-.line{
-	border: solid 1px #607d8b;
-	opacity: 0.5;
+ul li{
+	display: inline;
 }
 
 .resume {
