@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300);
-@import url(https://fonts.googleapis.com/css?family=Arvo:700);
+@import url(https://fonts.googleapis.com/css?family=Yantramanav:900);
 
 
 .body {
@@ -7,7 +7,7 @@
 	overflow: scroll;
 	font-size: 1.4em;
 	color:#424242;
-	border-top: solid 4px #607d8b;
+	/*border-top: solid 4px #607d8b;*/
 	font-family: ‘Raleway’, sans-serif;
     font-weight: 300;
 
@@ -28,23 +28,23 @@
 }
 
 a:visited {
-	color: #bf360c;
+	color: #d84315;
 }
 
 .side-left{
 	height:500px;
-	border-top: solid 4px #607d8b;
+	/*border-top: solid 4px #607d8b;*/
 }
 
 .name {
-	color:#01579b;
-	font-family: ‘Arvo’, serif;
-    font-weight: 700;
+	color:#1a237e;
+	font-family: ‘Yantramanav’, sans-serif;
+    font-weight: 900;
 
 }
 
 .links{
-	color:#bf360c;
+	color:#d84315;
 	font-weight: 800;
 	font-size: 1.5em;
 	font-family: ‘Raleway’, sans-serif;
@@ -54,14 +54,10 @@ ul li{
 	display: inline;
 }
 
-.resume {
-	color:#aeea00;
-}
-
 .projectone {
 	margin-left: 20;
 }
- .company{
+.company{
  	margin-bottom: 0%;
  	color:#bf360c;
 	font-weight: 800;
@@ -71,5 +67,6 @@ ul li{
 footer{
 	height: 80px;
 	background-color:#607d8b;
+	border: none;
 
 }
