@@ -1,14 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+@import url(https://fonts.googleapis.com/css?family=Arvo:700);
+
+
 .body {
 	height:500px;
 	overflow: scroll;
 	font-size: 1.4em;
 	color:#424242;
 	border-top: solid 4px #607d8b;
+	font-family: ‘Raleway’, sans-serif;
+    font-weight: 300;
+
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 
 }
 
+
+.main {
+    flex: 1 0 auto;
+  }
+
 .nav-wrapper{
 	border: none;
+	height:40px;
 }
 
 a:visited {
@@ -22,7 +38,8 @@ a:visited {
 
 .name {
 	color:#01579b;
-	font-weight: 800;
+	font-family: ‘Arvo’, serif;
+    font-weight: 700;
 
 }
 
@@ -30,6 +47,7 @@ a:visited {
 	color:#bf360c;
 	font-weight: 800;
 	font-size: 1.5em;
+	font-family: ‘Raleway’, sans-serif;
 }
 
 ul li{
@@ -43,9 +61,15 @@ ul li{
 .projectone {
 	margin-left: 20;
 }
-
+ .company{
+ 	margin-bottom: 0%;
+ 	color:#bf360c;
+	font-weight: 800;
+	font-size: 1.5em;
+	font-family: ‘Raleway’, sans-serif;
+ }
 footer{
-	height: 60px;
+	height: 80px;
 	background-color:#607d8b;
-	opacity: 0.2;
+
 }
