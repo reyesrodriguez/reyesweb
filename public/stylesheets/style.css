@@ -3,8 +3,12 @@
 	overflow: scroll;
 	font-size: 1.4em;
 	color:#424242;
-	border-top: solid 2px #607d8b;
+	border-top: solid 4px #607d8b;
 
+}
+
+.nav-wrapper{
+	border: none;
 }
 
 a:visited {
@@ -13,18 +17,19 @@ a:visited {
 
 .side-left{
 	height:500px;
-	border-top: solid 2px #607d8b;
+	border-top: solid 4px #607d8b;
 }
 
 .name {
 	color:#01579b;
 	font-weight: 800;
-	text-align: center;
 
 }
 
 .links{
 	color:#bf360c;
+	font-weight: 800;
+	font-size: 1.5em;
 }
 
 ul li{
