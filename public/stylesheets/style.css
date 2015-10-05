@@ -1,8 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300);
 @import url(https://fonts.googleapis.com/css?family=Yantramanav:900);
 
+/*html{
+	background: url('/images/colorback.jpg');
+	opacity: 0.9;
 
-.body {
+}*/
+.body{
 	height:500px;
 	overflow: scroll;
 	font-size: 1.4em;
@@ -63,6 +67,10 @@ ul li{
 	font-weight: 800;
 	font-size: 1.5em;
 	font-family: ‘Raleway’, sans-serif;
+ }
+ #time{
+ 	font-style: italic;
+ 	color: #1a237e;
  }
 footer{
 	height: 80px;
