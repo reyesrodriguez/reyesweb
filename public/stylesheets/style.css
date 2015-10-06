@@ -15,17 +15,17 @@
 	font-family: ‘Raleway’, sans-serif;
     font-weight: 300;
 
-    display: flex;
+    /*display: flex;
     min-height: 100vh;
-    flex-direction: column;
+    flex-direction: column;*/
 
 }
 
 
-.main {
+/*.main {
     flex: 1 0 auto;
   }
-
+*/
 .nav-wrapper{
 	border: none;
 	height:40px;
@@ -45,6 +45,7 @@ a:visited {
 	font-family: ‘Yantramanav’, sans-serif;
     font-weight: 900;
 
+
 }
 
 .links{
@@ -62,7 +63,6 @@ ul li{
 	margin-left: 20;
 }
 .company{
- 	margin-bottom: 0%;
  	color:#bf360c;
 	font-weight: 800;
 	font-size: 1.5em;
@@ -73,8 +73,8 @@ ul li{
  	color: #1a237e;
  }
 footer{
-	height: 80px;
-	background-color:#607d8b;
-	border: none;
+	height: 100px;
+	/*background-color:#607d8b;*/
+	/*border: none;*/
 
 }
