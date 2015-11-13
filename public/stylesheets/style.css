@@ -22,7 +22,7 @@
 }
 
 a:visited {
-	color: #d84315;
+	color: black;
 }
 
 .side-left{
@@ -31,14 +31,14 @@ a:visited {
 }
 
 .name {
-	color:#1a237e;
+	color:grey;
 	font-family: ‘Yantramanav’, sans-serif;
     font-weight: 900;
     
 }
 
 .links{
-	color:#d84315;
+	color:black;
 	font-weight: 800;
 	font-size: 1.5em;
 	font-family: ‘Raleway’, sans-serif;
