@@ -1,9 +1,31 @@
-@import url(https://fonts.googleapis.com/css?family=Dosis:500);
-/*html{
-	background: url('/images/colorback.jpg');
-	opacity: 0.9;
-
-}*/
+@font-face {
+	font-family: 'LinuxLibertine 0';
+	src: url('lin_libertine/LinLibertine_R.otf'); 
+	src: 
+		local('LinLibertine_R'),
+		local('LinLibertine_R'),
+		url('LinLibertine_R.otf') 
+		format('opentype');
+}
+/*bold version*/
+@font-face {
+	font-family: 'LinuxLibertine 0';
+	src: url('font/LinLibertine_RB.otf'); 
+	src: 
+		local('LinLibertine_RB'),
+		local('LinLibertine_RB'),
+		url('font/LinLibertine_RB.otf') 
+		format('opentype');
+}
+@font-face {
+	font-family: 'LinuxLibertine 0';
+	src: url('font/LinLibertine_RI.otf'); 
+	src: 
+		local('LinLibertine_RI'),
+		local('LinLibertine_RI'),
+		url('font/LinLibertine_RI.otf') 
+		format('opentype');
+}
 
 @media (min-width: 350px)  {
     .projects {
@@ -17,12 +39,12 @@
 p {
 	font-size: 1.5em;
 }
+
 .body{
 	height:500px;
 	color:#424242;
 	/*border-top: solid 4px #607d8b;*/
-	font-family: ‘Dosis’, sans-serif;
-    font-weight: 500;
+	font-family: ‘LinuxLibertine 0’;
 
 }
 
@@ -56,13 +78,15 @@ a:visited {
 }
 
 .name {
-	font-family: ‘Dosis’, sans-serif;
-    font-weight: 500;
+	font-family: ‘LinuxLibertine 0’;
+    font-weight: bold;
     color:#424242;
   
     
 }
 .project-name{
+	font-family: 'LinuxLibertine 0';
+	font-variant: italic; 
 	color:#dd2c00;
 	opacity:.9;
 }
