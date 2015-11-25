@@ -1,50 +1,21 @@
-@font-face {
-	font-family: 'LinuxLibertine 0';
-	src: url('lin_libertine/LinLibertine_R.otf'); 
-	src: 
-		local('LinLibertine_R'),
-		local('LinLibertine_R'),
-		url('LinLibertine_R.otf') 
-		format('opentype');
-}
-/*bold version*/
-@font-face {
-	font-family: 'LinuxLibertine 0';
-	src: url('font/LinLibertine_RB.otf'); 
-	src: 
-		local('LinLibertine_RB'),
-		local('LinLibertine_RB'),
-		url('font/LinLibertine_RB.otf') 
-		format('opentype');
-}
-@font-face {
-	font-family: 'LinuxLibertine 0';
-	src: url('font/LinLibertine_RI.otf'); 
-	src: 
-		local('LinLibertine_RI'),
-		local('LinLibertine_RI'),
-		url('font/LinLibertine_RI.otf') 
-		format('opentype');
-}
+@import url(https://fonts.googleapis.com/css?family=Bevan);
 
 @media (min-width: 350px)  {
     .projects {
         margin-top: 150px;
         padding-left: 20px;
 	}
-	.name{
-	font-size: 5.9vw;
-}
-}
 p {
 	font-size: 1.5em;
+}
 }
 
 .body{
 	height:500px;
 	color:#424242;
 	/*border-top: solid 4px #607d8b;*/
-	font-family: ‘LinuxLibertine 0’;
+	font-family: ‘Bevan’;
+	font-weight: bold;
 
 }
 
@@ -54,7 +25,7 @@ p {
 }
 
 .side-nav{
-	opacity:0.8;
+	opacity:0.9;
 
 }
 
@@ -62,7 +33,9 @@ p {
 	float: none;
     padding: 0px;
     margin: 2px;
-	
+    font-family: ‘Bevan’;
+	font-weight: bold;
+	font-size:50px;
 }
 .icon-nav li{
 	color:black;
@@ -78,24 +51,29 @@ a:visited {
 }
 
 .name {
-	font-family: ‘LinuxLibertine 0’;
+	font-family: ‘Bevan’;
     font-weight: bold;
     color:#424242;
   
     
 }
 .project-name{
-	font-family: 'LinuxLibertine 0';
+	font-family: 'Bevan';
 	font-variant: italic; 
-	color:#dd2c00;
-	opacity:.9;
+	font-weight:bold;
+	color:white;
+	padding-top:30px;
+}
+.paragraph h4{
+	color:rgba(173,173,173,1);
+	border-bottom: solid 2px;
 }
 
 .links{
 	color:black;
 	font-weight: 500;
 	font-size: 1.5em;
-	font-family: ‘Dosis’, sans-serif;
+	font-family: ‘Bevan’, sans-serif;
 }
 
 ul li{
@@ -117,8 +95,25 @@ ul li{
  	color:#bf360c;
 	font-weight: 500;
 	font-size: 1.5em;
-	font-family: ‘Dosis’, sans-serif;
+	font-family: ‘Bevan’, sans-serif;
  }
+ .back-project{
+ 	background-color: rgba(51,51,51,1);
+ }
+ .back-project p{
+ 	padding:20px;
+ 	color: white;
+ }
+
+ .skills {
+    font-size: 25px;
+    line-height: 26px;
+    margin-bottom: 35px;
+    padding-left: 15px;
+    border-width: 0px 0px 0px 3px;
+    border-style: solid;
+    font-family: ‘Bevan’;
+}
 
 footer{
 	height: 100px;
