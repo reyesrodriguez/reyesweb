@@ -1,17 +1,12 @@
 $(document).ready(function(){
 
-$('#blog').click(function()
-{
-	alert("This Blog is currently under construction!")
-});
+ $(".button-collapse").sideNav({
+ 	menuWidth: 200,
+ 	edge: 'left',
+ 	closeOnClick: true
+ }
 
-var options = [
-    {selector: '#visualize', offset: 100, callback: 'Materialize.fadeInImage("#visualize")' }
-  ];
-  Materialize.scrollFire(options);
+);
 
 });
 
-
-document.getElementById('time').innerHTML= Date();
-     

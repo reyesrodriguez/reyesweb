@@ -1,55 +1,77 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300);
-@import url(https://fonts.googleapis.com/css?family=Yantramanav:900);
-
+@import url(https://fonts.googleapis.com/css?family=Dosis:500);
 /*html{
 	background: url('/images/colorback.jpg');
 	opacity: 0.9;
 
 }*/
 
-@media (min-width: 350px) and (max-width: 600px) {
+@media (min-width: 350px)  {
     .projects {
         margin-top: 150px;
         padding-left: 20px;
 	}
-
+	.name{
+	font-size: 5.9vw;
+}
+}
+p {
+	font-size: 1.5em;
 }
 .body{
 	height:500px;
-	font-size: 1.4em;
 	color:#424242;
 	/*border-top: solid 4px #607d8b;*/
-	font-family: ‘Raleway’, sans-serif;
-    font-weight: 300;
+	font-family: ‘Dosis’, sans-serif;
+    font-weight: 500;
 
 }
 
 .nav-wrapper{
-	border: none;
+	
 	margin-top:20px;
+}
+
+.side-nav{
+	opacity:0.8;
+
+}
+
+.side-nav li{
+	float: none;
+    padding: 0px;
+    margin: 2px;
+	
+}
+.icon-nav li{
+	color:black;
+	padding-right:5px;
+
+}
+.github{
+	padding-top:10px;
 }
 
 a:visited {
 	color: black;
 }
 
-.side-left{
-	margin-top: 20px;
-	border: solid 1px #607d8b;
-}
-
 .name {
-	color:#dd2c00;
-	font-family: ‘Yantramanav’, sans-serif;
-    font-weight: 900;
+	font-family: ‘Dosis’, sans-serif;
+    font-weight: 500;
+    color:#424242;
+  
     
+}
+.project-name{
+	color:#dd2c00;
+	opacity:.9;
 }
 
 .links{
 	color:black;
-	font-weight: 800;
+	font-weight: 500;
 	font-size: 1.5em;
-	font-family: ‘Raleway’, sans-serif;
+	font-family: ‘Dosis’, sans-serif;
 }
 
 ul li{
@@ -57,9 +79,6 @@ ul li{
 	padding-left: 10px;
 }
 
-.projectone {
-	
-}
 
 .project {
 	margin: 20px;
@@ -72,14 +91,11 @@ ul li{
 }
 .company{
  	color:#bf360c;
-	font-weight: 800;
+	font-weight: 500;
 	font-size: 1.5em;
-	font-family: ‘Raleway’, sans-serif;
+	font-family: ‘Dosis’, sans-serif;
  }
- #time{
- 	font-style: italic;
- 	color: #1a237e;
- }
+
 footer{
 	height: 100px;
 	/*background-color:#607d8b;*/

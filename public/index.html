@@ -15,90 +15,74 @@
 </head>
 
 <body>
-	<div class="container">
+<div class="container">
 <div class="row">
-	<div class="col s12 m6">
-		<a href=""><h2 class="center-align name">Reyes Rodriguez</h2></a>
+
+   <nav>
+    <div class="nav-wrapper grey lighten-5">
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="left hide-on-med-and-down">
+        <li><a href="https://www.linkedin.com/in/reyesrodriguez" target="_blank">Resume</a></li>
+        <li><a href="#projectone">Projects</a></li>
+        <li><a href="#blog">Blog</a></li>
+      </ul>
+      <ul class="right icon-nav">
+        <li class="github"><img src="images/github_1.png" height="35" width="35"></li>
+        <li><i class="right large material-icons">email</i><li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="https://www.linkedin.com/in/reyesrodriguez" target="_blank">Resume</a></li>
+        <li><a href="#projectone">Projects</a></li>
+        <li><a href="#blog">Blog</a></li>
+      
+      </ul>
+    </div>
+  </nav>
+	<div class="col s12">
+		<a href=""><h4 class="center-align name ">Reyes Rodriguez</h4></a>
 	</div>
 
 
-
-    <div class="col s12 m6 nav-wrapper transparent white">
-    <!--   <a href="#!" class="brand-logo"></a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse hide-on-large"><i class="material-icons">menu</i></a> -->
-      <ul class="center links">
-        <li><a href="#projectone" onclick="Materialize.showStaggeredList('#visulize')">Projects</a></li>
-        <li><a href="https://www.linkedin.com/in/reyesrodriguez" target="_blank">Resume</a></li>
-        <li id="blog"><a href="#blog">Blog</a></li><br>
-      </ul>
-
-    <!--   <ul class="side-nav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-      </ul> -->
-    </div>
-    <br>
-</div>
-
 <div class="row">
 
 
-      <div class="col s12 m4 l3 side-left"> <!-- Note that "m4 l3" was added -->
-      <br>
-      <div class="col s8 centered">
-      <img class="circle responsive-img z-depth-2" src="images/reyes.jpg">
-    </div>
-      <div class="col s8 centered">
-      <h5>Skills</h5>
-  
-      <p>Javascript JAVA Python Node.js Ruby On Rails D3.js Angular.js CSS3 HTML5 Bootstrap 
-      PostgreSQL MongoDB Machine Learning </p>
-      <li><a href="https://github.com/reyesrodriguez" target="_blank"><img class="circle responsive-img z-depth-1" src="images/github.png"></a></li>
-      </div>
-      <br>
-      </div>
-
-    <div class="col m8 body"> <!-- Note that "m8 l9" was added --><a name="top"></a>
+    <div class="col s12  body"> <!-- Note that "m8 l9" was added --><a name="top"></a>
      <p>I am a web developer. After having a succesful carreer in the culinary field I have decided to pursue full time, an exciting path creating software and getting on board with any challenges that come my way, not only related to hospitality but also in social and commercial sectors.</p>
 		 <p>Web development is my work and hobby. But also dedicate what spare time I have to study machine learning, design, and read about all things tech and business related.</p>
      <h4>Objective</h4>
      <p>To work in a company that will allow me to become a better developer, and learn the necessary skills to reach a Senior Software Engineer role.  </p>
+    <h4>Skills</h4>
+  
+     <p>Javascript JAVA Python Node.js Ruby On Rails D3.js Angular.js CSS3 HTML5 Bootstrap 
+     PostgreSQL MongoDB Machine Learning </p>
 
-     </div>
-
-    </div>
      
-
-    <section class="col s12 m6">
-    <div class="row projects">
+    
+    <h4>Projects</h4>
     <a name="projectone"> </a>
-    <div class="col s12 m6 l3 project">
-    <a href="http://45.55.46.92:8080/#/" target="_blank"><img class="circle responsive-img  projectone" id="visualize"src="images/projectone.png" width="70%" height="70%"></a>
-    <h5 class="center-align ">Visualize</h5>
+    <a href="http://45.55.46.92:8080/#/" target="_blank">
+    <h5 class="center-align project-name">Visualize</h5></a>
     <p>An API-based application, designed to gather specific data and assess results with visualization. This is still a work in progress, but mvp requirements have been met.</p>
-    </div><br>
+    <br>
 
 
-    <div class="col s12 m6 l3">
-    <a href="https://tranquil-hamlet-7762.herokuapp.com/" target="_blank"><img class="circle responsive-img  projectone" src="images/task_map.png" width="65%" height="65%"></a>
-    <h5 class="center-align ">Record Finder</h5>
+    
+    <a href="https://tranquil-hamlet-7762.herokuapp.com/" target="_blank">
+    <h5 class="center-align project-name">Record Finder</h5></a>
     <p> <strong>Email = guest@guest.com password= guest</strong>
       A web application designed in group for my third project in General Assembly, designed to help with any collector specific record needs, while is still a work in progress, mvp requirements have been met.
     </p>
-    </div>
+    
 
-    <div class="col s12 m6 l3">
-    <a href="http://45.55.218.13:3000/patron" target="_blank"><img class="circle responsive-img  projectone" id="visualize"src="images/food_new.png" width="65%" height="65%"></a>
-    <h5 class="center-align ">Food Forum</h5>
+    
+    <a href="http://45.55.218.13:3000/patron" target="_blank">
+    <h5 class="center-align project-name ">Food Forum</h5></a>
     <p> A forum to interact with food businesses using JQuery, Pure and bootstrap CSS frameworks. This project was built on NodeJS using Express server. This is still a work in progress.</p>
-    </div><br>
-    </div>
-  </section>
-  <!--<div class="col s8">
-  <br>
-  <a href="#top">Go To Top</a>
-  </div> -->
+    <br>
 
+   </div>
+    </div>
+    
 
 
 
@@ -109,7 +93,6 @@
             
          
  </footer>
-  </div>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="/javascripts/materialize.min.js"></script>
