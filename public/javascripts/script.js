@@ -5,14 +5,19 @@ $(".blog").click(function(){
 });
 
 
+$('ul.tabs').tabs();
+ 
+
 $(".button-collapse").sideNav({
  	menuWidth: 200,
  	edge: 'left',
- 	closeOnClick: true
+ 	closeOnClick: true,
+ 	belowOrigin:false,
+ 	hover:false
  });
 
 $(function(){
-	$(".photo").delay(1000).fadeIn(300);
+	$(".photo").delay(1500).fadeIn(2000);
 
 });
 

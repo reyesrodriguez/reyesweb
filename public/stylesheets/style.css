@@ -10,6 +10,8 @@ p {
 }
 }
 
+
+
 body {
     display: flex;
     min-height: 100vh;
@@ -30,29 +32,45 @@ body {
 
 .photo{
 	display:none;
-	border: 5px solid #bf360c;
+	border: 3px solid rgba(173,173,173,1);
 }
+
+/*.resume{
+	padding: 10px;
+}*/
 .side-nav li{
-	float: none;
-    padding: 0px;
-    margin: 2px;
-    font-family: ‘Bevan’;
-	font-weight: bold;
-	font-size:50px;
+	float:left;
+	padding:0 20px;
+	height:40px;
+
 }
-nav .button-collapse i {
+
+.tabs .tab a:hover {
+    color: black;
+}
+.tabs .tab a {
+    color: black;
+
+}
+.tabs  li {
+    width:20%;
+}
+.tabs .indicator{
+	background-color:#ff6d00;
+}
+/*nav .button-collapse i {
     font-size: 2.7rem;
     height: 56px;
     line-height: 56px;
     color:black;
-}
+}*/
 .icon-nav li{
 	color:black;
 	padding-right:5px;
 
 }
 .github{
-	padding-top:10px;
+	padding-bottom:50px;
 }
 
 a:visited {
@@ -60,11 +78,18 @@ a:visited {
 }
 
 .name {
-	font-family: ‘Bevan’;
-    font-weight: bold;
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-style: italic;
     color:#424242;
   
     
+}
+.nametwo{
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-style: italic;
+    color:#a5d6a7;
 }
 .project-name{
 	font-family: 'Bevan';
@@ -121,13 +146,13 @@ ul li{
  }
 
  .skills {
-    font-size: 25px;
+    
     line-height: 26px;
     margin-bottom: 35px;
     padding-left: 15px;
     border-width: 0px 0px 0px 3px;
     border-style: solid;
-    font-family: ‘Bevan’;
+    font-family: 'Bevan’;
 }
 
 .copyright{
