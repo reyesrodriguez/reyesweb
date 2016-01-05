@@ -30,7 +30,7 @@ body {
 
 .photo{
 	display:none;
-	border: 5px solid black;
+	border: 5px solid #bf360c;
 }
 .side-nav li{
 	float: none;
