@@ -6,6 +6,13 @@ $(document).ready(function(){
  	closeOnClick: true
  });
 
+$(function(){
+	$(".photo").delay(1000).fadeIn(300);
+
+})
+ 
+
+
 
 
 
