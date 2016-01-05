@@ -78,6 +78,11 @@ a:visited {
 	border-bottom: solid 2px;
 }
 
+/*.js:hover{
+	color:#039be5;
+
+}*/
+
 .links{
 	color:black;
 	font-weight: 500;
